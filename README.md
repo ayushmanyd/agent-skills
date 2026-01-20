@@ -25,6 +25,34 @@ React and Next.js performance optimization guidelines from Vercel Engineering. C
 - Rendering performance (Medium)
 - JavaScript micro-optimizations (Low-Medium)
 
+### next-best-practices
+
+Next.js 15 & 16 best practices for App Router, Server Components, Cache Components, React Compiler, and performance optimization. Contains 45+ rules across 10 categories, prioritized by impact.
+
+**Use when:**
+- Writing new Next.js applications or pages
+- Implementing App Router patterns
+- Setting up data fetching and caching strategies
+- Optimizing Next.js performance
+- Migrating to Next.js 15 or 16
+- Reviewing Next.js code for best practices
+
+**Categories covered:**
+- App Router & Server Components (Critical)
+- Cache Components & Caching - Next.js 16 (Critical)
+- Data Fetching & Request Optimization (Critical)
+- React Compiler - Next.js 16 (High)
+- Performance & Bundle Optimization (High)
+- Routing & Navigation (Medium-High)
+- Image & Asset Optimization (Medium)
+- SEO & Metadata (Medium)
+- Error Handling & Loading States (Medium)
+- Advanced Patterns & Turbopack (Low-Medium)
+
+**Version support:**
+- Next.js 15 (React 19, Async Request APIs, Turbopack Dev)
+- Next.js 16 (Cache Components, React Compiler, proxy.ts, Turbopack Production)
+
 ### web-design-guidelines
 
 Review UI code for compliance with web interface best practices. Audits your code for 100+ rules covering accessibility, performance, and UX.

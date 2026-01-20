@@ -1,0 +1,29 @@
+{
+  "version": "1.0.0",
+  "organization": "Vercel Engineering",
+  "date": "January 2026",
+  "supports": {
+    "nextjs": [
+      "15.x",
+      "16.x"
+    ],
+    "react": [
+      "19.x"
+    ],
+    "node": [
+      "18.18.0+",
+      "20.9.0+"
+    ]
+  },
+  "abstract": "Comprehensive best practices guide for Next.js 15 & 16 applications, designed for AI agents and LLMs. Contains 45+ rules across 10 categories, prioritized by impact from critical (App Router, Server Components, Cache Components) to incremental (advanced patterns). Covers Next.js 16 breaking changes including Cache Components with 'use cache' directive, stable React Compiler for automatic memoization, Turbopack as default bundler, and proxy.ts replacing middleware.ts. Each rule includes detailed explanations, version compatibility notes, real-world examples comparing incorrect vs. correct implementations, and specific impact metrics to guide automated refactoring and code generation.",
+  "references": [
+    "https://nextjs.org/docs",
+    "https://nextjs.org/blog/next-15",
+    "https://nextjs.org/blog/next-16",
+    "https://react.dev/reference/rsc/server-components",
+    "https://react.dev/learn/react-compiler",
+    "https://nextjs.org/docs/app/api-reference/directives/use-cache",
+    "https://nextjs.org/docs/app/guides/caching",
+    "https://nextjs.org/docs/app/api-reference/turbopack"
+  ]
+}
